@@ -53,7 +53,4 @@ public class FileUtility {
 
         return parseDataFromFile;
     }
-
-    //public void display(String[] fileData, String fifow)
-
 }

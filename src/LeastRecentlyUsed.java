@@ -8,6 +8,7 @@ public class LeastRecentlyUsed {
     private int numberOfPageFrames;
 
     private int pageFaultCount = 0;
+
     private int maxValue;
     private int minValue;
 
@@ -96,6 +97,8 @@ public class LeastRecentlyUsed {
             System.out.print(paddedLine1);
 
         }
+
+        System.out.println("\nTotal Page Faults: " + Integer.toString(pageFaultCount));
         return Integer.toString(pageFaultCount);
     }
 
