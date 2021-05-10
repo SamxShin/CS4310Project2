@@ -17,8 +17,6 @@ public class FileUtility {
         currentRefString += "[" + (fileBeingRead) + "].txt";
 
 
-
-
         FileReader fileHandler;
 
         try{
@@ -47,14 +45,15 @@ public class FileUtility {
     }
 
 
-
-    public String[] parseDataFromFile(String[] fileContent){
+    public String[] parseDataFromFile(String[] fileData){
         String[] parseDataFromFile = {"", ""};
 
-        parseDataFromFile[0] = fileContent[1];
-        parseDataFromFile[1] = fileContent[3];
+        parseDataFromFile[0] = fileData[1];
+        parseDataFromFile[1] = fileData[3];
 
         return parseDataFromFile;
     }
+
+    //public void display(String[] fileData, String fifow)
 
 }
