@@ -81,7 +81,7 @@ public class LeastRecentlyUsed {
                     set.add(currentPage);
                     pageFaultCount++;
 
-                    System.out.print("\tPage fault occured: " + currentPage + " added and "
+                    System.out.print("\tPage fault occurred: " + currentPage + " added and "
                             + Integer.toString(minValue) + " was removed");
 
                 }

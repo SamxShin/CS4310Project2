@@ -57,7 +57,7 @@ public class FirstInFirstOut {
                     indexes.add(currentPage);
 
                     pageFaultCount++;
-                    System.out.print("\tPage fault occured: " + currentPage + " added and " + firstQueuePage + " was removed");
+                    System.out.print("\tPage fault occurred: " + currentPage + " added and " + firstQueuePage + " was removed");
 
 
                 } else{

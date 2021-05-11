@@ -53,7 +53,7 @@ public class OptimalAlgorithm {
                         list.add(currentPage);
                         pageFaultCount++;
 
-                        System.out.print("\tPage fault occured: " + currentPage + " added and "
+                        System.out.print("\tPage fault occurred: " + currentPage + " added and "
                                 + valueRemoved + " was removed");
 
                         break;
